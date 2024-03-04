@@ -66,7 +66,7 @@ The dataset reference information can be found [here](https://github.com/udacity
 In order to process the data and build the classification model, the following steps were taken:
 
 1. **Exploratory Data Analysis**: We load, clean, transform and visualize the data as needed.
-2. **Model Building**: We setup all the necessary classes and functions to train our pneumonia classifier. This includes choices such as data splits and model hyper-parameters.
+2. **Model Building**: We setup all the necessary classes and functions to train our hospitalization time regression model. This includes choices such as data splits and model hyper-parameters.
 3. **Model Uncertainty Analysis**: Obtain mean and standard deviation values of the predictions per patient.
 4. **Continous to Binary Convertion**: Convert continuous predictions to binary labels for patient selection.
 5. **Model Evaluation**: We use an exhaustive list of performance metrics to validate the predictions during and after training.
